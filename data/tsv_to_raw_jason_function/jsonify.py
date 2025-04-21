@@ -3,13 +3,13 @@ import os
 
 INFILE_DIR = r"C:\Users\isaia\OneDrive\Desktop\Academic work\Scholarly activities\Research voluntering\Research voluntering 2024 Dr. Sanocki\Scene gist coding\data\tsv\Ad_Final_cleaned_14_scenes.tsv"
 OUTFILE_DIR = r"C:\Users\isaia\OneDrive\Desktop\Academic work\Scholarly activities\Research voluntering\Research voluntering 2024 Dr. Sanocki\Scene gist coding\data\raw_json"
-FILE_BASENAME = "Ad_final_cleaned_14_scenes"
+FILE_BASENAME = "Ad_final_cleaned_14_scenes_test"
 
 DATA_IDX = (2, 51)
 
 # Windoes encoding since I generated the tsv files on a Windows machine this
 # time.
-lines = open(INFILE_DIR, "r", encoding='windows-1252').read().splitlines()
+lines = open(INFILE_DIR, "r", encoding='utf-8').read().splitlines()
 
 data_lines = lines[DATA_IDX[0]:DATA_IDX[1]+1]
 
