@@ -3,7 +3,7 @@ import os
 
 INFILE_DIR = r"C:\Users\isaia\OneDrive\Desktop\Academic work\Scholarly activities\Research voluntering\Research voluntering 2024 Dr. Sanocki\Scene gist coding\data\tsv\Ad_Final_cleaned_14_scenes.tsv"
 OUTFILE_DIR = r"C:\Users\isaia\OneDrive\Desktop\Academic work\Scholarly activities\Research voluntering\Research voluntering 2024 Dr. Sanocki\Scene gist coding\data\raw_json"
-FILE_BASENAME = "Ad_final_cleaned_14_scenes_test"
+FILE_BASENAME = "Ad_final_cleaned_14_scenes_test_encoding_issues"
 
 DATA_IDX = (2, 51)
 
