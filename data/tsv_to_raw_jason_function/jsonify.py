@@ -3,7 +3,7 @@ import os
 
 INFILE_DIR = r"C:\Users\isaia\OneDrive\Desktop\Academic work\Scholarly activities\Research voluntering\Research voluntering 2024 Dr. Sanocki\Scene gist coding\data\tsv\Ad_Final_cleaned_14_scenes.tsv"
 OUTFILE_DIR = r"C:\Users\isaia\OneDrive\Desktop\Academic work\Scholarly activities\Research voluntering\Research voluntering 2024 Dr. Sanocki\Scene gist coding\data\raw_json"
-FILE_BASENAME = "Ad_final_cleaned_14_scenes_test_encoding_issues"
+FILE_BASENAME = "Ad_final_cleaned_14_scenes_manually_cleaned"
 
 DATA_IDX = (2, 51)
 
@@ -18,10 +18,10 @@ def process_lines(lines):
     for line in lines:
         elems = line.split('\t')
         print(line)
-        assert(len(elems) == 16)
+        assert(len(elems) == 17)
         pid, OG_pid, identifier, S1, S2, S3, S4, S5, S6, S7, S8, S9, S10, S11, S12, S13, S14 = elems
         dat.append({
-            "int_id": pid,
+            "Int_id": pid,
             "OG_pid": OG_pid,
             "Identifier": identifier,
             "response_texts": {
