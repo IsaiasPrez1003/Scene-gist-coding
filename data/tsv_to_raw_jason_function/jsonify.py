@@ -19,10 +19,11 @@ def process_lines(lines):
         elems = line.split('\t')
         print(line)
         assert(len(elems) == 16)
-        pid, gender, S1, S2, S3, S4, S5, S6, S7, S8, S9, S10, S11, S12, S13, S14 = elems
+        pid, OG_pid, identifier, S1, S2, S3, S4, S5, S6, S7, S8, S9, S10, S11, S12, S13, S14 = elems
         dat.append({
-            "pid": pid,
-            "gender": gender,
+            "int_id": pid,
+            "OG_pid": OG_pid,
+            "Identifier": identifier,
             "response_texts": {
                 "S1": S1,
                 "S2": S2,
@@ -48,6 +49,7 @@ proc_data = process_lines(data_lines)
 jdat = {
     "file": proc_data,
 }
+
 output_file_path = os.path.join(OUTFILE_DIR, FILE_BASENAME + ".json")
 
 
