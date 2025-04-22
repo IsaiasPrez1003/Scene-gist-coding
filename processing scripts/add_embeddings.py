@@ -1,12 +1,13 @@
 import json
 
 from clip_embedder import CLIPTextEmbedder
-from langchain.embeddings import LlamaCppEmbeddings
 from tqdm import tqdm
+import os
 
-INFILE_DIR = "raw_json/"
-OUTFILE_DIR = "emb_json/"
-FILE_BASENAME = "exp4-9-scene-pn23-update-3-22"
+
+INFILE_DIR = r"C:\Users\isaia\OneDrive\Desktop\Academic work\Scholarly activities\Research voluntering\Research voluntering 2024 Dr. Sanocki\Scene gist coding\data\raw_json\Ad_final_cleaned_14_scenes_manual_encoding_CleanUp.json"
+OUTFILE_DIR = r"C:\Users\isaia\OneDrive\Desktop\Academic work\Scholarly activities\Research voluntering\Research voluntering 2024 Dr. Sanocki\Scene gist coding\data\raw_json"
+FILE_BASENAME = "Ad_final_cleaned_14_scenes_manual_encoding_CLeanUp"
 
 # Traverse through JSON file of the following format.
 # {
@@ -27,18 +28,8 @@ FILE_BASENAME = "exp4-9-scene-pn23-update-3-22"
 #
 def process_subject(subjdata):
     return {
-        "pid": subjdata["id"],
+        "pid": subjdata["pid"],
         "response_texts": { k: v.lower() for k, v in subjdata["response_texts"].items() },
-        "llama2_embs": {
-            imglabel: llama2.embed_query(response.lower()) # Generate embedding
-            for imglabel, response
-            in subjdata["response_texts"].items()
-        },
-        "mistral_embs": {
-            imglabel: mistral.embed_query(response.lower()) # Generate embedding
-            for imglabel, response
-            in subjdata["response_texts"].items()
-        },
         "clip_embs": {
             imglabel: [x.item() for x in clip(response.lower()).cpu().detach()[0].numpy()] # Generate embedding
             for imglabel, response
@@ -48,44 +39,28 @@ def process_subject(subjdata):
 
 def process_group(groupdata):
     return [process_subject(subjdata) for subjdata in tqdm(groupdata)]
-
 #
 # Main script.
 #
-
-print("Loading Llama 2...")
 # Make sure the model path is correct for your system!
-llama2 = LlamaCppEmbeddings(
-    model_path="/home/gene/research/llama-2/models/llama-2-13b.Q4_K_M.gguf",
-    verbose=False,
-    n_ctx=2048,
-    n_gpu_layers=43,
-)
-
-print("Loading Mistral...")
-mistral = LlamaCppEmbeddings(
-    model_path="/home/gene/research/llms/gguf_llms/models/mistral-7b-v0.1.Q4_K_M.gguf",
-    verbose=False,
-    n_ctx=2048,
-    n_gpu_layers=31,
-)
-
 print("Loading CLIP...")
 clip = CLIPTextEmbedder()
 
 print("Loading json data...")
-jdat = json.load(open(INFILE_DIR + FILE_BASENAME + ".json", 'r'))
+jdat = json.load(open(INFILE_DIR, 'r'))
 
 
 print("Processing data...")
 newdat = {
-    groupname: process_group(groupdata)
-    for groupname, groupdata
+    groupname: process_group(groupname)
+    for groupname
     in jdat.items()
 }
 
+output_file_path = os.path.join(OUTFILE_DIR, FILE_BASENAME + ".emb.json")
+
 print("Writing new data...")
-with open(OUTFILE_DIR + FILE_BASENAME + "+llama2+mistral+clip_lowercase.json", "w") as out:
+with open(OUTFILE_DIR + FILE_BASENAME + "clip_lowercase.json", "w") as out:
     out.write(json.dumps(newdat, indent=4))
 
 print("Done!")
