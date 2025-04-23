@@ -5,9 +5,9 @@ from tqdm import tqdm
 import os
 
 
-INFILE_DIR = r"C:\Users\isaia\OneDrive\Desktop\Academic work\Scholarly activities\Research voluntering\Research voluntering 2024 Dr. Sanocki\Scene gist coding\data\raw_json\Ad_final_cleaned_14_scenes_manual_encoding_CleanUp.json"
-OUTFILE_DIR = r"C:\Users\isaia\OneDrive\Desktop\Academic work\Scholarly activities\Research voluntering\Research voluntering 2024 Dr. Sanocki\Scene gist coding\data\raw_json"
-FILE_BASENAME = "Ad_final_cleaned_14_scenes_manual_encoding_CLeanUp"
+INFILE_DIR = r"C:\Users\isaia\OneDrive\Desktop\Academic work\Scholarly activities\Research voluntering\Research voluntering 2024 Dr. Sanocki\Scene gist coding\data\raw_json\Ad_final_cleaned_14_scenes_manually_cleaned.json"
+OUTFILE_DIR = r"C:\Users\isaia\OneDrive\Desktop\Academic work\Scholarly activities\Research voluntering\Research voluntering 2024 Dr. Sanocki\Scene gist coding\data\json_with_embeddings"
+FILE_BASENAME = "Ad_final_cleaned_14_scenes_manual_encoding_cleanup_emb"
 
 # Traverse through JSON file of the following format.
 # {
@@ -28,7 +28,7 @@ FILE_BASENAME = "Ad_final_cleaned_14_scenes_manual_encoding_CLeanUp"
 #
 def process_subject(subjdata):
     return {
-        "pid": subjdata["pid"],
+        "id": subjdata["Int_id"],
         "response_texts": { k: v.lower() for k, v in subjdata["response_texts"].items() },
         "clip_embs": {
             imglabel: [x.item() for x in clip(response.lower()).cpu().detach()[0].numpy()] # Generate embedding
@@ -52,16 +52,21 @@ jdat = json.load(open(INFILE_DIR, 'r'))
 
 print("Processing data...")
 newdat = {
-    groupname: process_group(groupname)
-    for groupname
+    groupname: process_group(groupdata)
+    for groupname, groupdata
     in jdat.items()
 }
 
-output_file_path = os.path.join(OUTFILE_DIR, FILE_BASENAME + ".emb.json")
+# Correct the output file path
+output_file_path = os.path.join(OUTFILE_DIR, FILE_BASENAME + ".json")
+
+# Ensure the output directory exists
+os.makedirs(OUTFILE_DIR, exist_ok=True)
 
 print("Writing new data...")
-with open(OUTFILE_DIR + FILE_BASENAME + "clip_lowercase.json", "w") as out:
+with open(output_file_path, "w") as out:
     out.write(json.dumps(newdat, indent=4))
-
+ 
 print("Done!")
+
 

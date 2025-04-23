@@ -11,6 +11,9 @@ DATA_IDX = (2, 51)
 # time.
 lines = open(INFILE_DIR, "r", encoding='utf-8').read().splitlines()
 
+# Remove non-breaking spaces
+lines = [line.replace('\u00a0', '').replace('\u2019', "'") for line in lines]
+
 data_lines = lines[DATA_IDX[0]:DATA_IDX[1]+1]
 
 def process_lines(lines):
@@ -18,12 +21,10 @@ def process_lines(lines):
     for line in lines:
         elems = line.split('\t')
         print(line)
-        assert(len(elems) == 17)
-        pid, OG_pid, identifier, S1, S2, S3, S4, S5, S6, S7, S8, S9, S10, S11, S12, S13, S14 = elems
+        assert(len(elems) == 15)
+        pid, S1, S2, S3, S4, S5, S6, S7, S8, S9, S10, S11, S12, S13, S14 = elems
         dat.append({
             "Int_id": pid,
-            "OG_pid": OG_pid,
-            "Identifier": identifier,
             "response_texts": {
                 "S1": S1,
                 "S2": S2,
