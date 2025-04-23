@@ -57,11 +57,7 @@ newdat = {
     in jdat.items()
 }
 
-# Correct the output file path
 output_file_path = os.path.join(OUTFILE_DIR, FILE_BASENAME + ".json")
-
-# Ensure the output directory exists
-os.makedirs(OUTFILE_DIR, exist_ok=True)
 
 print("Writing new data...")
 with open(output_file_path, "w") as out:
