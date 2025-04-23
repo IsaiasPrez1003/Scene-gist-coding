@@ -2,8 +2,6 @@
     "file": [
         {
             "Int_id": "1",
-            "OG_pid": "AS-M",
-            "Identifier": "a1",
             "response_texts": {
                 "S1": "The sun between the two pine trees, a tent in front of the two pines. A green flask at the bottom of the scene, flat dirt ground",
                 "S2": "A woman in a white dress taking a picture of a mountain scenery. Lots of trees, clear skies, a gap between the mountain she is looking at and the one she is sitting on.",
@@ -23,8 +21,6 @@
         },
         {
             "Int_id": "2",
-            "OG_pid": "EH-F",
-            "Identifier": "b1",
             "response_texts": {
                 "S1": "A campsite with a tent and some trees, possibly a dog, looking over a little cliff, with the sun shining through",
                 "S2": "A girl in a white dress sitting on a rock looking over a cliff. Taking pictures of the rocks and cliffs in the distance",
@@ -32,7 +28,7 @@
                 "S4": "Six surfers riding a huge wave",
                 "S5": "A blank grey room with a dark bench, and three lights above, and a big zero on the wall",
                 "S6": "A white beat up front of a house with a door, the house looked old and had some brick",
-                "S7": "A wood dock path leading out to the middle of the water, its later at night the lights are on",
+                "S7": "A wood dock path leading out to the middle of the water, it's later at night the lights are on",
                 "S8": "A dark alley with a shopping cart filled with stuff",
                 "S9": "A child in a fuzzy coat with a red scarf ",
                 "S10": "Some water down below in a valley, along with what seems to look like a path, and some green mountains ",
@@ -44,8 +40,6 @@
         },
         {
             "Int_id": "3",
-            "OG_pid": "BA-F",
-            "Identifier": "c1",
             "response_texts": {
                 "S1": "A small purpleish tent sitting on a mountain near the edge, trees and greenery all around. Out to the side of the tent is an area with some cooking and coffee things to heat over the fire.",
                 "S2": "woman in a white dress, white shoes, with long brown hair sitting on the edge of a canyon taking photographs with a phone.",
@@ -65,8 +59,6 @@
         },
         {
             "Int_id": "4",
-            "OG_pid": "AR-F",
-            "Identifier": "d1",
             "response_texts": {
                 "S1": "A sunset emerges on a small hill or mountain with a large tree. Including a tent and equipment",
                 "S2": "A woman is sitting at the edge of a cliff within multiple mountains shown. She is shown taking a picture of the landscape.",
@@ -86,8 +78,6 @@
         },
         {
             "Int_id": "5",
-            "OG_pid": "LC-F",
-            "Identifier": "e1",
             "response_texts": {
                 "S1": "A campsite at sunset with a tent",
                 "S2": "A woman sitting on a cliff taking a picture with a phone",
@@ -107,8 +97,6 @@
         },
         {
             "Int_id": "6",
-            "OG_pid": "JM-F",
-            "Identifier": "f1",
             "response_texts": {
                 "S1": "A tent overlooking a cliff at sunset. There was camping equipment in the foreground in front of the tent. The tent was under some trees.",
                 "S2": "A little girl was sitting on a rock overlooking a canyon. She had a white dress on with white shoes. She was taking a picture on a cellphone. She had brown hair.",
@@ -128,8 +116,6 @@
         },
         {
             "Int_id": "7",
-            "OG_pid": "JP-F",
-            "Identifier": "g1",
             "response_texts": {
                 "S1": "Tent, mountain, two trees next to the tent. Almost on edge of the mountain, mountains in background. Green can in the forefront of the photo.",
                 "S2": "A girl holding her phone up maybe to take a picture, with a white outfit on, white sandals with some kind of rhinestones lining the strap. Sitting on the edge of a cliff, and there was a divide between the cliff, and another in the background. Also a blue sky, few clouds",
@@ -149,8 +135,6 @@
         },
         {
             "Int_id": "8",
-            "OG_pid": "GS-F",
-            "Identifier": "h1",
             "response_texts": {
                 "S1": "There was a tent out in the woods. There were large trees and the sun peeking through - I believe it was a sunrise. There was a spot a few yards away from the tent that was most likely where their fire would be. i think that the tent was near a cliff. It was definitely on a mountain of some sort",
                 "S2": "there is a lady in a white dress also wearing white sandals taking a photo of her surroundings while sitting on the edge of a cliff - kinda dangerous. I think there were mountains and other cliffs around her.",
@@ -170,8 +154,6 @@
         },
         {
             "Int_id": "9",
-            "OG_pid": "KK-M",
-            "Identifier": "i1",
             "response_texts": {
                 "S1": "I saw a campsite. At the campsite, there was a tent placed next to a tree on a mountain. The sun was setting, and the tent and tree were casting a shadow. There were open food containers at the fire pit.",
                 "S2": "I saw a lot of trees. I also saw a crevasse running down the mountain. On top of the mountain was a woman in a white dress posing for a selfie with her phone.",
@@ -191,8 +173,6 @@
         },
         {
             "Int_id": "10",
-            "OG_pid": "KJ-M",
-            "Identifier": "j1",
             "response_texts": {
                 "S1": "I saw a tent and campfire set up in the mountain. The scene shows a hiking experience.",
                 "S2": "A woman taking a picture of the scenery. There are mountain ravines with trees on top of the mountains. It is a bright and sunny day.",
@@ -212,8 +192,6 @@
         },
         {
             "Int_id": "11",
-            "OG_pid": "AA-F",
-            "Identifier": "k1",
             "response_texts": {
                 "S1": "The sun looks like it is setting on a campsite with a small tent that is sitting under a large tree. The tent is in a clearing with other trees in the background. There are supplies strewn about and small patches of grass surrounding the tent.",
                 "S2": "A white woman with brown hair in a white dress is taking a picture of the scenery on her smartphone while she sits on the rocks. I am assuming that she is in some sort of canyon. The rocks are a sandy brown and there is some greenery on the tops only.",
@@ -233,8 +211,6 @@
         },
         {
             "Int_id": "12",
-            "OG_pid": "MC-F",
-            "Identifier": "l1",
             "response_texts": {
                 "S1": "a tent in the woods. The sun was setting and there were a few trees.",
                 "S2": "A girl taking a picture while sitting on some rocks. The rock were on what looked like mountains or cliffs.",
@@ -254,8 +230,6 @@
         },
         {
             "Int_id": "13",
-            "OG_pid": "BH-F",
-            "Identifier": "m1",
             "response_texts": {
                 "S1": "a tent in the woods. there was something green however i'm not sure what it was, could have been a can of some sort. the tent was on top of a mountain and it appears to be fall. there was not much green to been seen and the skies appeared to be first light.",
                 "S2": "a dark blonde girl sitting on the edge of a cliff taking pictures of the canyon. She's wearing a white dress with white sandals.",
@@ -275,8 +249,6 @@
         },
         {
             "Int_id": "14",
-            "OG_pid": "AM-F",
-            "Identifier": "n1",
             "response_texts": {
                 "S1": "i saw a tent on a mountain. looks like they are camping and have a campsite set up on that mountain. looks peaceful and quiet.",
                 "S2": "a women sitting on a cliff, she's wearing a white dress, she's taking a picture of the view. she is really close to the ledge of the cliff.",
@@ -296,8 +268,6 @@
         },
         {
             "Int_id": "15",
-            "OG_pid": "AM-F",
-            "Identifier": "o1",
             "response_texts": {
                 "S1": "There is a tent that seems to be set up on a cliff or mountain and there are lights shining in it. you can see the sun setting.",
                 "S2": "A girl is on top of a cliff and taking a picture of the view. There are two cliffs in the background that are parallel to each other, split down the middle.",
@@ -317,8 +287,6 @@
         },
         {
             "Int_id": "16",
-            "OG_pid": "AM-F",
-            "Identifier": "p1",
             "response_texts": {
                 "S1": "A tent in the outskirts of the woods with the rising/setting sun accenting the mountain range in the background",
                 "S2": "A women in a white dress capturing a picture on her black phone a vast, flat mountain range while sitting on the top of a mountain herself",
@@ -338,8 +306,6 @@
         },
         {
             "Int_id": "17",
-            "OG_pid": "ZREI-F",
-            "Identifier": "q1",
             "response_texts": {
                 "S1": "a camping set in the mountain during the sunset",
                 "S2": "A lady sitting in the edge of a mountain taking a picture of the view with a phone. The mountains are full of trees and the sky is blue. The lady was wearing a white dress and sandals.",
@@ -359,8 +325,6 @@
         },
         {
             "Int_id": "18",
-            "OG_pid": "LS-F",
-            "Identifier": "r1",
             "response_texts": {
                 "S1": "a campsite on the side of the mountain with a tent, tall trees and camp gear on the ground",
                 "S2": "A girl in a white dress sitting on a mountain side taking a picture of the view",
@@ -380,8 +344,6 @@
         },
         {
             "Int_id": "19",
-            "OG_pid": "MM-F",
-            "Identifier": "s1",
             "response_texts": {
                 "S1": "tent under a tree looking out to the mountains  from a cliff type thing covered in grass. sun is setting or rising",
                 "S2": "girl sitting on cliff overlooking a valley of more cliffs taking a picture while wearing a shite quarter sleeve dress and awful white shoes.",
@@ -401,8 +363,6 @@
         },
         {
             "Int_id": "20",
-            "OG_pid": "AD-F",
-            "Identifier": "t1",
             "response_texts": {
                 "S1": "a tent in the middle of the camping site with a lot of green grass and trees.",
                 "S2": "a girl in a white dress taking a photo on her phone of the mountain and the break in between the two mountains.",
@@ -422,8 +382,6 @@
         },
         {
             "Int_id": "21",
-            "OG_pid": "JC-F",
-            "Identifier": "u1",
             "response_texts": {
                 "S1": "Tent on the edge of a cliff next to a tree, at sunset with a lantern in the front",
                 "S2": "A girl sitting on a rock cliff with a white dress, white shoes, black phone taking a picture of the mountains / cliffs",
@@ -443,14 +401,12 @@
         },
         {
             "Int_id": "22",
-            "OG_pid": "AI-X",
-            "Identifier": "v1",
             "response_texts": {
                 "S1": "This photos seem to be a picture of a campsite. Looks as though the sun was setting, and the campsite was perched along the edge of a mountain or hill, with a decent drop off on the far end. There was also a gas, likely, propane or butane, fire set up, most likely to cook dinner.",
                 "S2": "This photo consisted of a woman in a white dress and white sandals, sitting on the edge of a canyon, taking a picture out in the distance over the canyon with her phone.",
                 "S3": "This photo seems to be a picture of an area that resembles something of Colmar France. It seem to be a town or city with ample waterways dividing the streets.",
-                "S4": "This photo consists of six people surfing a relatively large wave. If Im remembering correctly, there were three yellow surfboards, one orange surfboard, and two white surfboards.",
-                "S5": "This photo was that of a room with a long bench that could potentially seat 10 or so people against the wall and on the wall was a big painted zero. Im assuming this is probably a seating area for some kind of public transportation system.",
+                "S4": "This photo consists of six people surfing a relatively large wave. If I'm remembering correctly, there were three yellow surfboards, one orange surfboard, and two white surfboards.",
+                "S5": "This photo was that of a room with a long bench that could potentially seat 10 or so people against the wall and on the wall was a big painted zero. I'm assuming this is probably a seating area for some kind of public transportation system.",
                 "S6": "I believe the shot to be a white door, rather wide, that has seen a fair bit of use and weathering over the years. There was a rectangular section cut out towards the top left of the door around head height that was very lightly boarded up, but could be looked through. From the vantage point of the camera it is hard to tell what you could see through the rectangular hole, but it seemed as though there was some kind of natural light inside.",
                 "S7": "The picture consisted of a dock and platforms raised over the shore on stilts with a few hut-like structures branching from the dock.",
                 "S8": "This photo was a black-and-white photo of what seem to be the end of an alleyway. There was a shopping cart filled with some kind of debris, potentially cardboard or wood. The surrounding buildings seemed to be residential as the windows on the far end looked more like residential windows.",
@@ -464,8 +420,6 @@
         },
         {
             "Int_id": "23",
-            "OG_pid": "KC-F",
-            "Identifier": "a2",
             "response_texts": {
                 "S1": "Campsite during sunset. I noticed towards the bottom right of the photo there was a mug and other objects from the person staying there. The tent looked out to a view off a mountain with some fog and trees.",
                 "S2": "Woman with brown hair taking a photo of the landscape: a rocky area with some grassy spots and a dropoff (forget what that's called). The woman was wearing a white dress with white sandals. It was sunny outside and the sky was blue.",
@@ -485,8 +439,6 @@
         },
         {
             "Int_id": "24",
-            "OG_pid": "AS-F",
-            "Identifier": "b2",
             "response_texts": {
                 "S1": "a tent on a cliff with rocks and trees nearby during either sunset or sunrise because there was orange light coming through the tree near the tent",
                 "S2": "a woman in a white dress with white sandals sitting on the edge of a cliff holding up her phone as if she were taking an image",
@@ -506,8 +458,6 @@
         },
         {
             "Int_id": "25",
-            "OG_pid": "PY-F",
-            "Identifier": "c2",
             "response_texts": {
                 "S1": "tent, many trees and rock formations, possibly sunset with the intensely warm lighting, cliffs, hills",
                 "S2": "girl sitting on rock in a white dress and white strappy sandals taking a photo with her smartphone. In the background is a plethora of rock formations/cliffs, many trees on either side of the formations",
@@ -527,8 +477,6 @@
         },
         {
             "Int_id": "26",
-            "OG_pid": "EZ-F",
-            "Identifier": "d2",
             "response_texts": {
                 "S1": "Sunset, a tent perched on the side of a mountain near a large tree, camping supplies and gear scattered around",
                 "S2": "Girl in white dress and white sandals sitting on the edge of a mountain with one arm outstretched taking a picture with a phone",
@@ -548,8 +496,6 @@
         },
         {
             "Int_id": "27",
-            "OG_pid": "NA-F",
-            "Identifier": "e2",
             "response_texts": {
                 "S1": "This picture shows a camp on a mountain, kind of on the side of a mountain or edge. It shows the beautiful sunset.",
                 "S2": "This picture shows a girl taking a picture of the mountain view while sitting on a rock.",
@@ -569,8 +515,6 @@
         },
         {
             "Int_id": "28",
-            "OG_pid": "KW-F",
-            "Identifier": "f2",
             "response_texts": {
                 "S1": "The image looks like a campsite on a trail. There is a tent in front of two skinny trees. In the foreground of the picture is what looks like logs for a fire.",
                 "S2": "There is a lady sitting on a rock taking a picture of the scene. She has blondish hair and is wearing a white dress. She is also wearing matching white sandals. Her phone is black. She appears to be very high up, taking pictures of other mountainous land.",
@@ -590,8 +534,6 @@
         },
         {
             "Int_id": "29",
-            "OG_pid": "MD-F",
-            "Identifier": "g2",
             "response_texts": {
                 "S1": "pretty mountain scene with green christmas tree looking trees in the background, a tent, fire pit with a green object. i think there was an animal or clothing near the tent. the sun was setting and it was really pretty",
                 "S2": "girl on ledge of mountain scene taking a photo with her phone wearing white dresses and white sandals. the surface she was sitting on was rocky but there were plenty of trees in the background",
@@ -611,8 +553,6 @@
         },
         {
             "Int_id": "30",
-            "OG_pid": "ES-F",
-            "Identifier": "h2",
             "response_texts": {
                 "S1": "tent with a thing set up to make food or fire, pretty scenery. trees and the sun.",
                 "S2": "lady taking a photo, she's wearing white dress and white sandals. big cliffs lots of rocks and some greenery.",
@@ -632,8 +572,6 @@
         },
         {
             "Int_id": "31",
-            "OG_pid": "JS-NB",
-            "Identifier": "i2",
             "response_texts": {
                 "S1": "Camp ground with a tent next to a tree. Seems like it is sunrise because the sun is low in the sky and partially covered by the tree",
                 "S2": "Woman sitting on a cliff edge taking a photo. Rolling mountains in the back covered with trees and rock. Bright blue sky",
@@ -653,8 +591,6 @@
         },
         {
             "Int_id": "32",
-            "OG_pid": "CC-M",
-            "Identifier": "j2",
             "response_texts": {
                 "S1": "I saw a tent under a couple pine trees and on top of a mountain. I could tell because I saw the slopes down beneath. A person or group of people could be camping, but I don't remember seeing anyone. I also saw a green drinking can towards the bottom of the picture, next to a few other small items. The sand and rocks looked brownish.",
                 "S2": "I saw a light-brown haired woman sitting on a cliff. She was wearing a white dress. She had her phone out and was very likely taking a picture or video of the beautiful landscape. The landscape itself appeared to have large rocky cliffs and tons of trees and brush on top of them and in the canyons below.",
@@ -674,8 +610,6 @@
         },
         {
             "Int_id": "33",
-            "OG_pid": "SK-F",
-            "Identifier": "k2",
             "response_texts": {
                 "S1": "A mountain filled with greenery with a tent and the sunset in the back.",
                 "S2": "A girl wearing a thigh high sun dress sitting on the edge of a cliff taking a picture while her light brown highlighted hair blows in the wind.",
@@ -695,8 +629,6 @@
         },
         {
             "Int_id": "34",
-            "OG_pid": "MM-F",
-            "Identifier": "l2",
             "response_texts": {
                 "S1": "Beautiful sunrise camping",
                 "S2": "A woman on a mountain",
@@ -710,14 +642,12 @@
                 "S10": "Beautiful landscape",
                 "S11": "Polluted water ",
                 "S12": "A man standing alone in a distance ",
-                "S13": "Didnt see",
+                "S13": "Didn't see",
                 "S14": "Rainy day in a town"
             }
         },
         {
             "Int_id": "35",
-            "OG_pid": "CI-F",
-            "Identifier": "m2",
             "response_texts": {
                 "S1": "A campsite with a tent on a mountain side, there was also a couple of cups by looked like an old put out fire.",
                 "S2": "A girl taking a picture sitting on a mountain side.",
@@ -737,8 +667,6 @@
         },
         {
             "Int_id": "36",
-            "OG_pid": "AM-F",
-            "Identifier": "n2",
             "response_texts": {
                 "S1": "A setting that takes place in the woods. There's a camping tent next to a tree in the middle, and the sun is setting (or maybe rising) in the background. There also was a green object located at the bottom of the photograph, perhaps relating to a campfire.",
                 "S2": "Natural landscape with blue sky and clouds, green cliffs. There's a woman with light colored hair and a white dress seated on one of the cliffs taking a photo with her smartphone.",
@@ -758,8 +686,6 @@
         },
         {
             "Int_id": "37",
-            "OG_pid": "SE-F",
-            "Identifier": "o2",
             "response_texts": {
                 "S1": "I saw a tent in a field with hills and it had flowers",
                 "S2": "I saw a brunette girl in a white dress and white sandals sitting on a mountain taking pictures with her phone",
@@ -779,8 +705,6 @@
         },
         {
             "Int_id": "38",
-            "OG_pid": "EH-F",
-            "Identifier": "p2",
             "response_texts": {
                 "S1": "A sunset and a camping tent, underneath a tree. A lot of greenery. Looks like they might be on top of a hill.",
                 "S2": "a girl with long hair and white dress and sandals sitting on the ledge of a cliff taking a picture of the mountains",
@@ -800,8 +724,6 @@
         },
         {
             "Int_id": "39",
-            "OG_pid": "FM-F",
-            "Identifier": "q2",
             "response_texts": {
                 "S1": "SunriseTentTreesMountainCamping stove",
                 "S2": "Girl in a white dress and white shoes taking a picture on a cellphone. Ravine Big sky Cliff",
@@ -821,8 +743,6 @@
         },
         {
             "Int_id": "40",
-            "OG_pid": "MA-F",
-            "Identifier": "r2",
             "response_texts": {
                 "S1": "A tent set up on a mountain during sunset. Some camping gear laying around the scene. Trees obfuscated the view of the valley.",
                 "S2": "A women in a white dress taking a picture of a mountain ridge. The wind was blowing her hair and dress. It was day.",
@@ -842,8 +762,6 @@
         },
         {
             "Int_id": "41",
-            "OG_pid": "TM-M",
-            "Identifier": "s2",
             "response_texts": {
                 "S1": "A green tent in a forest at sunset.",
                 "S2": "A woman in white taking a photo of a quarry.",
@@ -863,8 +781,6 @@
         },
         {
             "Int_id": "42",
-            "OG_pid": "AM-F",
-            "Identifier": "t2",
             "response_texts": {
                 "S1": "nature, camping trip, being one with nature",
                 "S2": "Hiking trip, with risky girl",
@@ -884,8 +800,6 @@
         },
         {
             "Int_id": "43",
-            "OG_pid": "AR-F",
-            "Identifier": "u2",
             "response_texts": {
                 "S1": "A tent set up on a hill in a forest",
                 "S2": "A woman taking a picture of a canyon",
@@ -905,8 +819,6 @@
         },
         {
             "Int_id": "44",
-            "OG_pid": "JM-F",
-            "Identifier": "v2",
             "response_texts": {
                 "S1": "Tent at sunrise on a mountain",
                 "S2": "Girl in a white dress sitting on the edge of a cliff taking a picture of the scenery",
@@ -926,8 +838,6 @@
         },
         {
             "Int_id": "45",
-            "OG_pid": "MR-NB",
-            "Identifier": "w2",
             "response_texts": {
                 "S1": "This is a beautiful, colorful image of a camping scene in the mountains. The first thing my eye is drawn to is the orange sunset, shimmering through two trees that frame a tent that is set up on the side of a mountain. In the foreground to the right of the camp, we see more trees and the mountain continues to go up. In the background on the left, we can see another mountain, full of green pine trees. I can't recall the tent color, I want to say a light blue.",
                 "S2": "camera, white, dress, iphone, woman, mountains, sitting on mountain, in foreground there's mountains, in mountains background to left and right, valley/canyon to left with trees on top",
