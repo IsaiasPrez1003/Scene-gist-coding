@@ -22,24 +22,24 @@ def process_lines(lines):
         elems = line.split('\t')
         print(line)
         assert(len(elems) == 15)
-        pid, S1, S2, S3, S4, S5, S6, S7, S8, S9, S10, S11, S12, S13, S14 = elems
+        pid, Scene_1_Campsite, Scene_2_Woman_above_Canyon, Scene_3_Brick_Town_Wall, Scene_4_Surfers, Scene_5_Zero_Bench, Scene_6_Old_White_Wall, Scene_7_Deck_Lights, Scene_8_Dark_Alley, Scene_9_Bundled_Toddler, Scene_10_Mountains_and_Blue_Lake, Scene_11_Polluted_Lake, Scene_12_Man_in_Desert_with_Fire, Scene_13_Orange_Brick_City, Scene_14_Cobblestone_with_Trees = elems
         dat.append({
             "Int_id": pid,
             "response_texts": {
-                "S1": S1,
-                "S2": S2,
-                "S3": S3,
-                "S4" : S4,
-                "S5" : S5,
-                "S6" : S6,
-                "S7" : S7,
-                "S8" : S8,
-                "S9" : S9,
-                "S10": S10,
-                "S11": S11,
-                "S12": S12,
-                "S13": S13,
-                "S14": S14
+                "Scene_1_Campsite": Scene_1_Campsite,
+                "Scene_2_Woman_above_Canyon": Scene_2_Woman_above_Canyon,
+                "Scene_3_Brick_Town_Wall": Scene_3_Brick_Town_Wall,
+                "Scene_4_Surfers" : Scene_4_Surfers,
+                "Scene_5_Zero_Bench" : Scene_5_Zero_Bench,
+                "Scene_6_Old_White_Wall" : Scene_6_Old_White_Wall,
+                "Scene_7_Deck_Lights" : Scene_7_Deck_Lights,
+                "Scene_8_Dark_Alley" : Scene_8_Dark_Alley,
+                "Scene_9_Bundled_Toddler" : Scene_9_Bundled_Toddler,
+                "Scene_10_Mountains_and_Blue_Lake": Scene_10_Mountains_and_Blue_Lake,
+                "Scene_11_Polluted_Lake": Scene_11_Polluted_Lake,
+                "Scene_12_Man_in_Desert_with_Fire": Scene_12_Man_in_Desert_with_Fire,
+                "Scene_13_Orange_Brick_City": Scene_13_Orange_Brick_City,
+                "Scene_14_Cobblestone_with_Trees": Scene_14_Cobblestone_with_Trees
             }
         })
     return dat
